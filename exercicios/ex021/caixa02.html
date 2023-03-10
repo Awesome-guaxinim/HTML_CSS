@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixa2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(39, 51, 156);
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 20px;
+            box-shadow: 1px 1px 1px black ;
+        }
+
+        footer{
+            background-color: rgb(199, 255, 199);
+            color: black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        nav{
+            text-align: right;
+            background-color: rgb(240, 47, 47);
+            padding: 3px;
+            box-shadow: 2px 1px 5px 2px black;
+        }
+
+        article {
+            background-color: rgb(240, 47, 47);
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: darkcyan;
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Óla mundo</h1>
+    <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    <nav>
+    </header>
+    <main>
+        <section id="assuntos">Mangá books</section>
+        <section id="noticias">
+            <article>
+                <h2>Capitulos de C.O.K.A.O</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, qui tempora consequatur obcaecati reiciendis a ducimus rem quaerat in consequuntur labore assumenda quas molestiae impedit, vero ipsa excepturi illo. Dignissimos.</p>
+                <aside>Artigo escrito por suntzu</aside> <!-- relativo ao artigo ex:escritor do artigo-->
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por C.O.K.A.O</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
